@@ -1,0 +1,20 @@
+nav {
+	list-style-type: none;
+	text-align: center;
+	height:30px;
+}
+
+
+li {
+	display: inline;
+	padding-right:50px;
+}
+
+a {
+	text-decoration: none;	
+
+}
+
+.homepic {
+	max-width: 20%;
+}
