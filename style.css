@@ -2,6 +2,10 @@ body {
 	background-color: aliceblue;
 }
 
+.container-fluid {
+	padding: 0px;
+}
+
 .homenav {
 	list-style-type: none;
 	text-align: center;
@@ -29,6 +33,7 @@ a {
 	color: white;
 	padding: 5px;
 	font-family: 'Patrick Hand', cursive;
+	border-radius: 10px;
 }
 
 .header h1 {
