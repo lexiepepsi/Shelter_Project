@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Furrever Home</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<link rel="stylesheet" type="text/css" href="home.css">
+
+		<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+
+	</head>
+	<body>
+		<center><img src="titleimg.jpg"></center>
+
+		<nav>
+			<ul class="homenav">
+				<li><a href="home.html">HOME</a></li>
+				<li><a href="shelter_1.html">TAILS OF LOVE</a></li>
+				<li><a href="shelter_2.html">MIGHTY MUTTS</a></li>
+				<li><a href="shelter_3.html">SUGAR MUTTS</a></li>
+				<li><a href="shelter_4.html">SECAUCUS ANIMAL SHELTER</a></li>
+			</ul>
+		</nav>
+
+		<center><h1>Mighty Mutts Animal Shelter</h1>
+		<h4>Manhattan, NY</h4></center>
+
+<!-- CAROUSEL -->
+		<div class="carousel1">
+		  <div><img src="slickimgs/mmpic1.png"></div>
+		  <div><img src="slickimgs/mmpic2.png"></div>
+		  <div><img src="slickimgs/mmpic3.png"></div>
+		  <div><img src="slickimgs/mmpic4.png"></div>
+		</div>
+
+		 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+		  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+		  <script type="text/javascript" src="slick.min.js"></script>
+
+			<script type="text/javascript">
+				$(document).ready(function(){
+				  $('.carousel1').slick({
+				    $('.fade').slick({
+					  dots: true,
+					  infinite: true,
+					  speed: 500,
+					  fade: true,
+					  cssEase: 'linear'
+					});
+				  });
+				});
+
+</script>
+
+<!-- text content -->
+
+		<div class="row1">
+			<div class="col-md-4"> </div>
+
+			
+		</div>
+
+	</body>
+
+</html>
