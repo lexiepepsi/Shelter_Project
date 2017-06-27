@@ -1,29 +1,42 @@
-/*from master
-nav {
+body {
+	background-color: aliceblue;
+}
+
+.homenav {
 	list-style-type: none;
 	text-align: center;
-	height:30px;
 	background-color: #73B1B7;
-	padding-top: 5px;
+	padding: 5px;
+	border-style: solid;
+	border-color: darkblue;
 }
 
-
-li {
+.homenav li {
 	display: inline;
-	padding-right:50px;
+	padding-right: 50px;
+	font-size: 20px;
+	font-family: 'Patrick Hand', cursive;
 }
-
 
 a {
-	text-decoration: none;
-	font-color:white;
-
+	color: darkblue;
 }
 
-.homepic {
-	max-width: 100%;
+
+.header {
+	text-align: center;
+	background-color: teal;
+	color: white;
+	padding: 5px;
+	font-family: 'Patrick Hand', cursive;
 }
 
-.row1 {
-	padding:5px;
-}*/
+.header h1 {
+	font-size: 100px;
+}
+
+.shelter-info {
+	margin-top: 20px;
+	font-size: 16px;
+}
+
