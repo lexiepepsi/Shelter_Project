@@ -25,4 +25,45 @@ a {
 
 .row1 {
 	padding:5px;
+	font-size: 20px;
+	font-family: 'Patrick Hand', cursive;
 }
+
+body {
+	background-color: aliceblue;
+}
+
+.homenav {
+	list-style-type: none;
+	text-align: center;
+	background-color: #73B1B7;
+	padding: 5px;
+	border-style: solid;
+	border-color: darkblue;
+}
+
+.homenav li {
+	display: inline;
+	padding-right: 50px;
+	font-size: 20px;
+	font-family: 'Patrick Hand', cursive;
+}
+
+
+a {
+	color: darkblue;
+}
+
+.header {
+	text-align: center;
+	background-color: teal;
+	color: white;
+	padding: 5px;
+	padding-bottom: 10px;
+	font-family: 'Patrick Hand', cursive;
+	border-radius: 10px;
+}
+
+
+
+
