@@ -1,0 +1,83 @@
+body {
+	background-color: aliceblue;
+}
+
+.container-fluid {
+	padding: 0px;
+}
+
+.homenav {
+	list-style-type: none;
+	text-align: center;
+	background-color: #73B1B7;
+	padding: 5px;
+	border-style: solid;
+	border-color: darkblue;
+}
+
+.homenav li {
+	display: inline;
+	padding-right: 50px;
+	font-size: 20px;
+	font-family: 'Patrick Hand', cursive;
+}
+
+a {
+	color: darkblue;
+}
+
+
+.header {
+	text-align: center;
+	background-color: teal;
+	color: white;
+	padding: 5px;
+	padding-bottom: 10px;
+	font-family: 'Patrick Hand', cursive;
+	border-radius: 10px;
+}
+
+.header h1 {
+	font-size: 100px;
+}
+
+.shelter-info {
+	margin: 30px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-size: 18px;
+}
+
+.titles {
+	font-size: 26px;
+	color: teal;
+	font-weight: bold;
+}
+
+.entry {
+	color: black;
+	font-weight: normal;
+	font-style: italic;
+}
+
+.col-md-4 {
+	font-weight: bold;
+}
+
+.col-md-4 a {
+	text-decoration: underline;
+}
+
+.dogimg {
+	width: 240px;
+	border-radius: 10px;
+	padding: 5px;
+	display: block;
+	background-position: center;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.adoptable p {
+	text-align: center;
+}
